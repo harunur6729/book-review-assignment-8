@@ -1,7 +1,7 @@
 
 const Banner = () => {
     return (
-        <div className="grid md:grid-cols-2  bg-slate-100 py-20 rounded-lg ">
+        <div className="grid md:grid-cols-2 mb-12 mx-4 bg-slate-100 py-20 rounded-lg ">
             <div className="text-black">
                 <div className="ml-10">
                 <h1 className="text-4xl font-bold text-start mb-12">Books to freshen up your bookshelf</h1>

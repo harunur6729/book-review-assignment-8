@@ -7,7 +7,7 @@ const Header = () => {
         <li><NavLink to="pagesRead">Pages to Read</NavLink></li>
     </>
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar text-black">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
