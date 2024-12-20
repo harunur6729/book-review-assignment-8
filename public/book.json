@@ -1,0 +1,107 @@
+[
+    {
+      "bookId": 1,
+      "bookName": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "image": "https://example.com/images/silent-patient.jpg",
+      "review": "An engrossing psychological thriller with a shocking twist.",
+      "totalPages": 336,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Suspense", "Psychological"],
+      "publisher": "Celadon Books",
+      "yearOfPublishing": 2019
+    },
+    {
+      "bookId": 2,
+      "bookName": "Educated",
+      "author": "Tara Westover",
+      "image": "https://example.com/images/educated.jpg",
+      "review": "A deeply inspiring memoir about resilience and self-discovery.",
+      "totalPages": 334,
+      "rating": 4.8,
+      "category": "Biography",
+      "tags": ["Memoir", "Inspiration"],
+      "publisher": "Random House",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 3,
+      "bookName": "Atomic Habits",
+      "author": "James Clear",
+      "image": "https://example.com/images/atomic-habits.jpg",
+      "review": "A practical guide to building good habits and breaking bad ones.",
+      "totalPages": 320,
+      "rating": 4.9,
+      "category": "Self-help",
+      "tags": ["Productivity", "Self-improvement"],
+      "publisher": "Avery",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 4,
+      "bookName": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "image": "https://example.com/images/crawdads.jpg",
+      "review": "A beautifully written tale of love, survival, and mystery.",
+      "totalPages": 368,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Mystery", "Romance"],
+      "publisher": "G.P. Putnam's Sons",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 5,
+      "bookName": "Becoming",
+      "author": "Michelle Obama",
+      "image": "https://example.com/images/becoming.jpg",
+      "review": "An inspiring and intimate memoir by the former First Lady.",
+      "totalPages": 448,
+      "rating": 4.7,
+      "category": "Biography",
+      "tags": ["Memoir", "Politics"],
+      "publisher": "Crown Publishing Group",
+      "yearOfPublishing": 2018
+    },
+    {
+      "bookId": 6,
+      "bookName": "The Midnight Library",
+      "author": "Matt Haig",
+      "image": "https://example.com/images/midnight-library.jpg",
+      "review": "A thought-provoking story about choices, regrets, and possibilities.",
+      "totalPages": 304,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Fantasy", "Philosophy"],
+      "publisher": "Viking",
+      "yearOfPublishing": 2020
+    },
+    {
+      "bookId": 7,
+      "bookName": "The Alchemist",
+      "author": "Paulo Coelho",
+      "image": "https://example.com/images/alchemist.jpg",
+      "review": "A magical fable about following your dreams and discovering your destiny.",
+      "totalPages": 208,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Philosophy", "Adventure"],
+      "publisher": "HarperOne",
+      "yearOfPublishing": 1988
+    },
+    {
+      "bookId": 8,
+      "bookName": "Dune",
+      "author": "Frank Herbert",
+      "image": "https://example.com/images/dune.jpg",
+      "review": "A science fiction masterpiece about politics, religion, and power.",
+      "totalPages": 688,
+      "rating": 4.6,
+      "category": "Science Fiction",
+      "tags": ["Epic", "Adventure", "Sci-Fi"],
+      "publisher": "Chilton Books",
+      "yearOfPublishing": 1965
+    }
+  ]
+  
