@@ -2,6 +2,7 @@ import { key } from "localforage";
 import { CiLocationOn } from "react-icons/ci";
 import { IoMdPerson } from "react-icons/io";
 import { MdOutlineContactPage } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const ReadBook = ({ book }) => {
   const {
@@ -18,11 +19,11 @@ const ReadBook = ({ book }) => {
     yearOfPublishing,
   } = book;
   return (
-    <div className="grid grid-cols-3 bg-red-100 gap-4 mb-4  rounded-lg ">
+    <div className="grid md:grid-cols-3 bg-red-100 gap-4 mb-4  rounded-lg ">
       <div>
         <img className="h-44 w-full rounded-lg" src={image} alt="" />
       </div>
-      <div className="col-span-2  p-2">
+      <div className="md:col-span-2  p-2">
         <h1 className="text-start text-black text-3xl font-serif">
           {bookName}
         </h1>
@@ -61,7 +62,7 @@ const ReadBook = ({ book }) => {
         <div className="flex">
             <p className="bg-blue-100 px-2 text-blue-600 rounded-full">Category: {category}</p>
             <p className="bg-red-200 px-2 text-red-600 rounded-full">Rating: {rating}</p>
-            <button className="bg-green-600 px-2 text-white rounded-full">Veiw Details</button>
+            <Link to={`/book/${bookId}`}><button className="bg-green-600 px-2 text-white rounded-full">Veiw Details</button></Link>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredReadBook } from "../utility/utility";
 import ReadBook from "./ReadBook";
+import HeaderOfListedBook from "./HeaderOfListedBook";
 
 const ListedBooks = () => {
     const books = useLoaderData();
@@ -26,8 +27,8 @@ const ListedBooks = () => {
     },[])
     return (
         <div>
-            <h1> Listed Books:{bookRead.length}</h1>
-            <ul>
+            <HeaderOfListedBook></HeaderOfListedBook>
+            <ul className="mt-2">
                 {
                     bookRead.map(book => <ReadBook key={book.bookId} book={book}></ReadBook>)
                 }

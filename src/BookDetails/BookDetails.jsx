@@ -82,7 +82,7 @@ const BookDetails = () => {
 
         <div className="flex justify-start gap-6 mt-6">
             <button onClick={hanldeListedBooks} className="btn btn-info">Read</button>
-            <button className="btn btn-warning">Wishlist</button>
+            <button onClick={hanldeListedBooks} className="btn btn-warning">Wishlist</button>
         </div>
         <ToastContainer></ToastContainer>
       </div>
